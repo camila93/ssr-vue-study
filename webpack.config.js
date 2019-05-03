@@ -13,7 +13,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './dist/index.html'
+            template: './index.html'
         }),
         new Webpack.HotModuleReplacementPlugin(),
         new VueLoaderPlugin()
