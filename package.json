@@ -18,7 +18,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "server": "src/server.js"
   },
   "repository": {
     "type": "git",
